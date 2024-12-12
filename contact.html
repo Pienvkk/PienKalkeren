@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body class="contactformulier">
+    <header>
+        <nav>
+            <a href="./index.html">Pien van Kalkeren</a>
+            <ul>
+                <li><a href="./overmij.html">Over Mij</a></li>
+                <li><a href="./projecten.html">Projecten</a></li>
+                <li><a href="./vaardigheden.html">Vaardigheden</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contact</h2>
+            <p>Heb je vragen of wil je met me samenwerken? Vul het formulier in of neem contact met me op via de onderstaande gegevens.</p>
+        </section>
+
+        <section class="contact-form">
+            <h3>Contactformulier</h3>
+            <form action="#" method="POST">
+                <label for="name">Naam:</label>
+                <input type="text" id="name" name="name" placeholder="Je naam" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Je e-mail" required>
+
+                <label for="message">Bericht:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Je bericht" required></textarea>
+
+                <button type="submit">Verstuur</button>
+            </form>
+        </section>
+
+        <section class="social-media">
+            <h3>Sociale Media</h3>
+            <p>Je kunt me ook bereiken via de volgende sociale media-kanalen:</p>
+            <ul>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pien van Kalkeren. Alle rechten voorbehouden.</p>
+    </footer>
+
+    <script src="./java/script.js"></script>
+</body>
+</html>
